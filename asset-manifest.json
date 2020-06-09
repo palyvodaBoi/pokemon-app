@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/palyvodaBoi/pokemon-app.git/static/css/main.e1b739a1.chunk.css",
+    "main.js": "/palyvodaBoi/pokemon-app.git/static/js/main.20a35754.chunk.js",
+    "main.js.map": "/palyvodaBoi/pokemon-app.git/static/js/main.20a35754.chunk.js.map",
+    "runtime-main.js": "/palyvodaBoi/pokemon-app.git/static/js/runtime-main.f0bddc1e.js",
+    "runtime-main.js.map": "/palyvodaBoi/pokemon-app.git/static/js/runtime-main.f0bddc1e.js.map",
+    "static/js/2.cbb70fe7.chunk.js": "/palyvodaBoi/pokemon-app.git/static/js/2.cbb70fe7.chunk.js",
+    "static/js/2.cbb70fe7.chunk.js.map": "/palyvodaBoi/pokemon-app.git/static/js/2.cbb70fe7.chunk.js.map",
+    "index.html": "/palyvodaBoi/pokemon-app.git/index.html",
+    "precache-manifest.f81dbf99757ce4dc8cafc3c92bd22dd5.js": "/palyvodaBoi/pokemon-app.git/precache-manifest.f81dbf99757ce4dc8cafc3c92bd22dd5.js",
+    "service-worker.js": "/palyvodaBoi/pokemon-app.git/service-worker.js",
+    "static/css/main.e1b739a1.chunk.css.map": "/palyvodaBoi/pokemon-app.git/static/css/main.e1b739a1.chunk.css.map",
+    "static/js/2.cbb70fe7.chunk.js.LICENSE.txt": "/palyvodaBoi/pokemon-app.git/static/js/2.cbb70fe7.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f0bddc1e.js",
+    "static/js/2.cbb70fe7.chunk.js",
+    "static/css/main.e1b739a1.chunk.css",
+    "static/js/main.20a35754.chunk.js"
+  ]
+}
