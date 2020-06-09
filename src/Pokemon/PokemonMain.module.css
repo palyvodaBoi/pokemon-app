@@ -1,0 +1,52 @@
+.DropdownWrapper {
+    margin: 0 0 20px;
+}
+
+.DropdownWrapper label {
+    margin-right: 8px;
+}
+
+.DropdownWrapper select {
+    padding: 5px 20px 5px 5px;
+    border-radius: 3px;
+    cursor: pointer;
+    outline: none;
+}
+
+.List {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.ListWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    position: relative;
+    height: 100%;
+}
+
+.Buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Buttons button {
+    width: 49%;
+    margin: 0 !important;
+}
+
+@media (max-width: 833px) {
+    .List {
+        width: 50%;
+    }
+}
+
+@media (max-width: 566px) {
+    .ListWrapper {
+        justify-content: center;
+    }
+}

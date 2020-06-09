@@ -1,0 +1,25 @@
+.Header {
+    height: 10vh;
+    font-size: 32px;
+    text-align: center;
+    border: 1px solid black;
+    width: 50vw;
+    margin: 0 auto 5vh;
+    padding: 3vh 0;
+}
+
+.Content {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 5vw;
+    min-height: 84vh;
+}
+
+@media (max-width: 566px) {
+    .Header {
+        height: 6vh;
+        font-size: 24px;
+        padding: 1vh 0;
+        margin: 0 auto 2vh;
+    }
+}

@@ -1,0 +1,86 @@
+.Card {
+    width: 30%;
+    border: 1px solid grey;
+    border-radius: 3px;
+    text-align: center;
+    padding: 7px 7px 14px;
+    background-color: #ffffff;
+    margin: 0 0 4vh;
+    cursor: pointer;
+    position: relative;
+}
+
+.Card:hover {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.ImageWrapper {
+    height: 60%;
+    background-color: #ececec;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    max-width: 100%;
+}
+
+.InfoWrapper {
+    height: 40%;
+}
+
+.Name {
+    margin: 0;
+    padding: 10px 0;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.Ribbon {
+    position: absolute !important;
+    left: -15px !important;
+    padding: 6px 10px !important;
+}
+
+@media (max-width: 833px) {
+    .Card {
+        height: 185px;
+        margin: 0 0 2vh;
+    }
+
+    .ImageWrapper,
+    .InfoWrapper {
+        height: 50%;
+    }
+
+    .Label {
+        width: 62px;
+    }
+    .Label:nth-child(2) {
+        margin-bottom: 5px !important;
+    }
+
+    .Name {
+        padding: 5px 0;
+    }
+}
+
+@media (max-width: 767px) {
+    .Card {
+        width: 40%;
+    }
+
+    .Ribbon {
+        zoom: 0.8;
+    }
+}
+
+@media (max-width: 566px) {
+    .Card {
+        width: 60%;
+    }
+}

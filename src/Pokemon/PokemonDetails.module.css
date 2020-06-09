@@ -1,0 +1,78 @@
+.Details {
+    width: 35%;
+}
+
+.DetailsCard {
+    position: fixed;
+    top: 22vh;
+    width: 25vw;
+    max-width: 23%;
+    border: 1px solid #000;
+    border-radius: 3px;
+    padding: 10px;
+    text-align: center;
+}
+
+.ImageWrapper {
+    height: 40%;
+    background-color: #ececec;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Name {
+    font-size: 24px;
+    text-transform: capitalize;
+    padding: 10px 0;
+    margin: 0;
+}
+
+.TableWrapper {
+    height: 45vh;
+    overflow-y: auto;
+}
+
+.Table {
+    margin: 0 !important;
+}
+
+.Table th {
+    padding: .5em .7em !important;
+}
+
+.Table td {
+    text-transform: capitalize;
+}
+
+@media (max-width: 833px) {
+    .Details {
+        width: 40%;
+    }
+
+    .DetailsCard {
+        width: 30vw;
+        max-width: none;
+    }
+}
+
+@media (max-width: 767px) {
+    .Table tr {
+        padding: 0 !important;
+    }
+}
+@media (max-width: 566px) {
+    .Details {
+        width: 50%;
+    }
+
+    .DetailsCard {
+        width: 45vw;
+    }
+
+    .Name {
+        font-size: 20px;
+    }
+}
