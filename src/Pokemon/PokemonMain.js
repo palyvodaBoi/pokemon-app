@@ -27,7 +27,7 @@ function PokemonMain() {
 
       setLoadingInfo('Loading pokemons info...');
       const pokemonInfoArray = pokemonListResponse.data.results
-        .map(item => axios.get(`https://pokeapi.co/api/v1/pokemon/${item.id}`));
+        .map(item => axios.get(`https://pokeapi.co/api/v2/pokemon/${item.id}`));
       const pokemonInfoResponse = await Promise.all(pokemonInfoArray)
         .then(responses => responses.map(response => response.data));
       const dropdownTypes = ['all', ...new Set(pokemonInfoResponse
